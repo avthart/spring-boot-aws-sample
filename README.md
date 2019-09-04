@@ -31,5 +31,5 @@ docker build --build-arg JAR_FILE=target/spring-boot-aws-sample-0.0.1-SNAPSHOT.j
 Run container:
 
 ```bash
-docker run -d -p 8080 spring-boot-aws-sample:latest
+docker run -d -p 18080:8080 spring-boot-aws-sample:latest
 ```
