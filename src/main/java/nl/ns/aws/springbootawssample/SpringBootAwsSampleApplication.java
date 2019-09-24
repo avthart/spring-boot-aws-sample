@@ -25,6 +25,5 @@ public class SpringBootAwsSampleApplication {
             // ignore, could not get hostname
         }
         return "Hello World [" + hostName + "]";
-	}
-
+    }
 }

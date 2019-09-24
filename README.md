@@ -1,6 +1,8 @@
 # spring-boot-aws-sample
 
-intro...
+This sample project make use of the spring boot base distroless image for running on AWS.
+
+<https://ns-bitbucket.dev.infosupport.net/projects/SRE/repos/spring-boot-docker/browse>
 
 ## Build
 
@@ -25,7 +27,7 @@ java -jar target/spring-boot-aws-sample-0.0.1-SNAPSHOT.jar
 Build image:
 
 ```bash
-docker build --build-arg JAR_FILE=target/spring-boot-aws-sample-0.0.1-SNAPSHOT.jar -t spring-boot-aws-sample:latest .
+docker build -t spring-boot-aws-sample:latest .
 ```
 
 Run container:
